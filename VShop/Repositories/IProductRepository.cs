@@ -11,7 +11,7 @@ public interface IProductRepository
 
     Task<Product> Create(Product product);
 
-    Task<Product> Update(IProductRepository product);
+    Task<Product> Update(Product product);
 
     Task<Product> Delete(int id);
 }
